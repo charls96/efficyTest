@@ -3,7 +3,7 @@
 ## Testing your SQL knowledge (35-50 min approx)
 It has been quite a while since I have used native SQL. I usually use Eloquent, an adaptation for Laravel(PHP framework).
 
-## Testing your JavaScript and CSS knowledge (25-40 min aprox)
+## Testing your JavaScript and CSS knowledge (25-40 min approx)
 In this part, the only issue I had was forgetting to put the defer attribute on the script 🤣
 
 ### Interesting links 🚀🚀
