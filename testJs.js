@@ -52,6 +52,18 @@ const Module = class {
     select.addEventListener("change", () => {
       input.value = statusSuccess[select.value];
     });
+
+   /*  On form submit, output the form element values as JSON string. We want to see the values, 
+    not the text. {"status":3,"success":50} */
+    const form = document.getElementsByTagName('form')[0];
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const response = {
+        "status" : event.target.status.value,
+        "success": event.target.success.value
+      };
+      document.getElementsByClassName('output')[0].innerHTML = JSON.stringify(response);
+    })
   }
 };
 
